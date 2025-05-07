@@ -1,0 +1,24 @@
+// Lista de mensajes posibles
+const mensajes = [
+  "¡Bienvenido desde tu código QR!",
+  "Has accedido correctamente.",
+  "Otro día, otro mensaje.",
+  "Mensaje generado aleatoriamente.",
+  "Gracias por visitarnos."
+];
+
+// Obtener parámetro desde la URL (ej: ?id=3)
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+
+// Si existe un parámetro 'id', usarlo como índice
+let mensaje;
+if (id && !isNaN(id)) {
+  mensaje = mensajes[parseInt(id) % mensajes.length];
+} else {
+  // Si no hay parámetro, mostrar mensaje aleatorio
+  mensaje = mensajes[Math.floor(Math.random() * mensajes.length)];
+}
+
+// Mostrar el mensaje
+document.getElementById("mensaje").innerText = mensaje;
