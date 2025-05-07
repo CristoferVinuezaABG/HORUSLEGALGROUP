@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HORUSLEGALGROUP</title>
+  <style>
+    body {
+      background-image: url('https://images.unsplash.com/photo-1583623025817-d180b7a3b831?auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 50px;
+      text-align: center;
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 30px;
+    }
+    ul {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    .contacto {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HORUSLEGALGROUP</h1>
+    <p>Tu aliado en la defensa de tus derechos. Asesoría legal clara y confiable.</p>
+    
+    <h2>📜 Consejos Legales Importantes</h2>
+
+    <h3>Derechos Fundamentales (Constitución):</h3>
+    <ul>
+      <li>🔹 <strong>Igualdad ante la ley:</strong> Todos somos iguales ante la ley, sin discriminación.</li>
+      <li>🔹 <strong>Derecho a la defensa:</strong> Puedes contar con un abogado y se presume tu inocencia.</li>
+      <li>🔹 <strong>Libertad de expresión:</strong> Puedes expresar tus ideas libremente, con respeto a los demás.</li>
+      <li>🔹 <strong>Derecho a la propiedad:</strong> Nadie puede quitarte tus bienes sin justificación legal.</li>
+    </ul>
+
+    <h3>Derechos del Consumidor (Ley Orgánica de Defensa del Consumidor):</h3>
+    <ul>
+      <li>🔹 <strong>Suspensión injustificada de servicio (Art. 77):</strong> El proveedor puede ser multado si suspende servicios sin motivo.</li>
+      <li>🔹 <strong>Indemnización y devolución (Art. 71):</strong> Si el producto falla, puedes exigir reparación, cambio o reembolso.</li>
+      <li>🔹 <strong>Información clara:</strong> Tienes derecho a recibir información veraz antes de comprar.</li>
+      <li>🔹 <strong>Calidad y seguridad:</strong> Exige productos seguros y funcionales.</li>
+      <li>🔹 <strong>Derecho a reclamar:</strong> Puedes presentar reclamos ante el proveedor o las autoridades.</li>
+    </ul>
+
+    <h3>Delitos contra la Propiedad (COIP):</h3>
+    <ul>
+      <li>🔹 <strong>Robo (Art. 189
